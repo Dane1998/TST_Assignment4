@@ -5,7 +5,17 @@
   },
   "compilationOptions": {},
   "targets": {
-    ".NETCoreApp,Version=v6.0": {}
+    ".NETCoreApp,Version=v6.0": {
+      "SolutionCop/0.9.2": {}
+    }
   },
-  "libraries": {}
+  "libraries": {
+    "SolutionCop/0.9.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xWGa/aQhXIEa2ZFTS3iHkFmH1O2cTA/D0WAu4sLsKyEP2dQX68AnVpbKPbDWn3Exp6Hu4ax3FqjqyRB3bgS9kA==",
+      "path": "solutioncop/0.9.2",
+      "hashPath": "solutioncop.0.9.2.nupkg.sha512"
+    }
+  }
 }

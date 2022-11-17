@@ -1,11 +1,37 @@
 {
   "version": 3,
   "targets": {
-    "net6.0-windows7.0": {}
+    "net6.0-windows7.0": {
+      "SolutionCop/0.9.2": {
+        "type": "package"
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "SolutionCop/0.9.2": {
+      "sha512": "xWGa/aQhXIEa2ZFTS3iHkFmH1O2cTA/D0WAu4sLsKyEP2dQX68AnVpbKPbDWn3Exp6Hu4ax3FqjqyRB3bgS9kA==",
+      "type": "package",
+      "path": "solutioncop/0.9.2",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "solutioncop.0.9.2.nupkg.sha512",
+        "solutioncop.nuspec",
+        "tools/bin/CommandLine.dll",
+        "tools/bin/Microsoft.Web.XmlTransform.dll",
+        "tools/bin/NuGet.Core.dll",
+        "tools/bin/SolutionCop.Core.dll",
+        "tools/bin/SolutionCop.DefaultRules.dll",
+        "tools/bin/SolutionCop.exe",
+        "tools/bin/SolutionCop.xsd"
+      ]
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0-windows7.0": []
+    "net6.0-windows7.0": [
+      "SolutionCop >= 0.9.2"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\danie\\.nuget\\packages\\": {}
@@ -45,6 +71,12 @@
     "frameworks": {
       "net6.0-windows7.0": {
         "targetAlias": "net6.0-windows",
+        "dependencies": {
+          "SolutionCop": {
+            "target": "Package",
+            "version": "[0.9.2, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",

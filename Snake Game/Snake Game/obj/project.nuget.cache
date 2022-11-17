@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "wdXFtLmRtVz5P2WupOfhSyvFR5cjok3MxsJgpkuNlBlvHmG7dJZeIgjBF7M1aMH8g2/m8SZ+zpZ8EhXK4DwWxg==",
+  "dgSpecHash": "whUycPbJ1yIdVhI4S9dfX89ZNtL4w1geduzbsDuRyJdKkSEGxyIxk9IEgqr+KJqeyNc66b6Is/QllQZF60j9aA==",
   "success": true,
   "projectFilePath": "C:\\Users\\danie\\OneDrive\\Skrivebord\\Skole\\2.sem\\TST\\TST_Assignment4\\Snake Game\\Snake Game\\Snake Game.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\danie\\.nuget\\packages\\solutioncop\\0.9.2\\solutioncop.0.9.2.nupkg.sha512"
+  ],
   "logs": []
 }
